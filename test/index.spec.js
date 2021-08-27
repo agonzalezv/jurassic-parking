@@ -164,13 +164,13 @@ describe("Jurassic Parking", async function () {
     expect(result).to.deep.equal([
       {
         licencePlate: 'A',
-        name: 'Alan Grant',
+        employee: 'Alan Grant',
         fuelAdded: 9,
         price: 58.3625
       },
       {
         licencePlate: 'C',
-        name: 'Ian Malcolm',
+        employee: 'Ian Malcolm',
         fuelAdded: 0,
         price: 38.85
       }
