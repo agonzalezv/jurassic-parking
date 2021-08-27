@@ -1,0 +1,27 @@
+{
+  "name": "jurassic-parking",
+  "version": "1.0.0",
+  "description": "A thrilling theme park(ing)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "park": "npm test -- --grep 'should do a test run'"
+  },
+  "author": "Andres Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.1"
+  }
+}
